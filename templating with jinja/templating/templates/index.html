@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templating</title>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laudantium aliquam illum sint eaque dolor aut
+        quas. Blanditiis facilis delectus repudiandae saepe tempora quibusdam architecto totam, illo ducimus ipsum
+        magni.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum, cupiditate voluptatibus dolor,
+        optio ad vitae ipsam odit voluptatem, culpa tempora corporis molestiae.
+    </h2>
+    <h6>{{ 5*6 }}</h6> 
+    <h3>RAndom Number: {{ num }}</h3>
+    <a href="{{ url_for('get_blog',  num=3) }}"> Blogs</a>
+    <footer>
+        <h1>@Copyright {{ date }}, Company</h1>
+    </footer>
+</body>
+
+</html>
